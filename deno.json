@@ -20,7 +20,7 @@
     "typecheck": "deno check .",
     "lint": "deno lint .",
     "fmt": "deno fmt .",
-    "tailwind": "./tailwindcli -i ./src/main.css -o ./src/public/main.css --minify --watch",
+    "tailwind": "./tailwindcli -i ./src/main.css -o ./public/main.css --minify --watch",
     "dev": "deno run --unstable-otel --unstable-temporal --allow-net --allow-read --allow-env --watch ./src/main.ts",
     "start": "deno run --unstable-otel --unstable-temporal --allow-net --allow-read --allow-env --watch ./src/main.ts",
     "comp": "deno run --allow-read --allow-net --allow-write https://raw.githubusercontent.com/Hortashaorg/auro/1d96668d75bd04c5eed31cc99933bfdc0a06bd60/services/app/components/cli.ts"
