@@ -1,7 +1,10 @@
 import { app } from "@kalena/framework";
+import { homeRoute } from "@pages/Home.tsx";
 
 const myApp = app({
-  routes: [],
+  routes: [
+    homeRoute,
+  ],
   port: 4000,
 });
 
