@@ -1,0 +1,21 @@
+{
+    "name": "project",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-azuretools.vscode-docker",
+          "yoavbls.pretty-ts-errors",
+          "eamodio.gitlens",
+          "GitHub.vscode-github-actions",
+          "bradlc.vscode-tailwindcss",
+          "CraigRBroughton.htmx-attributes",
+          "denoland.vscode-deno"
+        ]
+      }
+    },
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "local",
+    "workspaceFolder": "/app",
+    "postCreateCommand": "read -p 'Enter your git email: ' email && git config --global user.email \"$email\" && read -p 'Enter your git username: ' username && git config --global user.name \"$username\""
+  }
+  
