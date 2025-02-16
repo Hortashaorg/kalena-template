@@ -51,6 +51,21 @@ doppler run --project <project> --config <environment> -- deno run dev
 This way you won't have to add any .env files or sdk to the workspace. And for
 production you just run the same way with the production environment.
 
+### Required Environment Variables (OTEL)
+
+For OpenTelemetry monitoring:
+
+```bash
+OTEL_DENO=true
+OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318
+OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
+OTEL_SERVICE_NAME=<service name>
+```
+
+The OpenTelemetry collector is included in the development environment (see
+docker-compose.yml). Metrics and traces are available through Grafana at
+http://localhost:3000.
+
 ## Tailwind CLI
 
 The setup requires tailwindcli executable to be present in the root of the
