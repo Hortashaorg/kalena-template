@@ -3,17 +3,14 @@
   "name": "@project/app",
   "exports": "./main.ts",
   "imports": {
-    "@kalena/framework": "jsr:@kalena/framework@0.1.10",
+    "@kalena/framework": "jsr:@kalena/framework@0.1.11",
     "class-variance-authority": "npm:class-variance-authority@0.7.1",
     "clsx": "npm:clsx@2.1.1",
-    "tailwind-merge": "npm:tailwind-merge@3.0.1",
-    "tailwindcss": "npm:tailwindcss@4.0.7",
+    "tailwind-merge": "npm:tailwind-merge@3.0.2",
+    "tailwindcss": "npm:tailwindcss@4.0.8",
     "@comp/": "./src/components/",
-    "@layouts/": "./src/layouts/",
-    "@sections/": "./src/sections/",
     "@pages/": "./src/pages/",
-    "@permissions/": "./src/permissions/",
-    "@api/": "./src/api/"
+    "@permissions/": "./src/permissions/"
   },
   "nodeModulesDir": "auto",
   "tasks": {

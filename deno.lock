@@ -2,24 +2,22 @@
   "version": "4",
   "specifiers": {
     "jsr:@hono/hono@4.7.2": "4.7.2",
-    "jsr:@kalena/framework@0.1.10": "0.1.10",
+    "jsr:@kalena/framework@0.1.11": "0.1.11",
     "jsr:@valibot/valibot@1.0.0-rc.1": "1.0.0-rc.1",
     "npm:@opentelemetry/api@^1.9.0": "1.9.0",
     "npm:class-variance-authority@0.7.1": "0.7.1",
     "npm:class-variance-authority@~0.7.1": "0.7.1",
     "npm:clsx@2.1.1": "2.1.1",
     "npm:clsx@^2.1.1": "2.1.1",
-    "npm:tailwind-merge@3.0.1": "3.0.1",
-    "npm:tailwind-merge@^3.0.1": "3.0.1",
-    "npm:tailwindcss@4.0.7": "4.0.7",
-    "npm:tailwindcss@^4.0.7": "4.0.7"
+    "npm:tailwind-merge@3.0.2": "3.0.2",
+    "npm:tailwindcss@4.0.8": "4.0.8"
   },
   "jsr": {
     "@hono/hono@4.7.2": {
       "integrity": "73466a24bd6eb3b527cde18e59ca5543890ddacb4312fc0bc7504d28a7e57a38"
     },
-    "@kalena/framework@0.1.10": {
-      "integrity": "d72b93663dcc66c93b2c8a8ff0f4f1f4cad24cfc30913d1ac5e5ed858e2fa5be",
+    "@kalena/framework@0.1.11": {
+      "integrity": "0aa55ecca82cbc996bea477faca5b8298bdac5000fb4a7c30a772c8179348e6a",
       "dependencies": [
         "jsr:@hono/hono",
         "jsr:@valibot/valibot",
@@ -43,21 +41,21 @@
     "clsx@2.1.1": {
       "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA=="
     },
-    "tailwind-merge@3.0.1": {
-      "integrity": "sha512-AvzE8FmSoXC7nC+oU5GlQJbip2UO7tmOhOfQyOmPhrStOGXHU08j8mZEHZ4BmCqY5dWTCo4ClWkNyRNx1wpT0g=="
+    "tailwind-merge@3.0.2": {
+      "integrity": "sha512-l7z+OYZ7mu3DTqrL88RiKrKIqO3NcpEO8V/Od04bNpvk0kiIFndGEoqfuzvj4yuhRkHKjRkII2z+KS2HfPcSxw=="
     },
-    "tailwindcss@4.0.7": {
-      "integrity": "sha512-yH5bPPyapavo7L+547h3c4jcBXcrKwybQRjwdEIVAd9iXRvy/3T1CC6XSQEgZtRySjKfqvo3Cc0ZF1DTheuIdA=="
+    "tailwindcss@4.0.8": {
+      "integrity": "sha512-Me7N5CKR+D2A1xdWA5t5+kjjT7bwnxZOE6/yDI/ixJdJokszsn2n++mdU5yJwrsTpqFX2B9ZNMBJDwcqk9C9lw=="
     }
   },
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@4.7.2",
-      "jsr:@kalena/framework@0.1.10",
+      "jsr:@kalena/framework@0.1.11",
       "npm:class-variance-authority@0.7.1",
       "npm:clsx@2.1.1",
-      "npm:tailwind-merge@3.0.1",
-      "npm:tailwindcss@4.0.7"
+      "npm:tailwind-merge@3.0.2",
+      "npm:tailwindcss@4.0.8"
     ]
   }
 }
