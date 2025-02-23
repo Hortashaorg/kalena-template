@@ -20,7 +20,7 @@
     "tailwind": "./tailwindcli -i ./src/main.css -o ./public/main.css --minify --watch",
     "dev": "deno run --unstable-otel --unstable-temporal --allow-net --allow-read --allow-env --watch ./src/main.ts",
     "start": "deno run --unstable-otel --unstable-temporal --allow-net --allow-read --allow-env --watch ./src/main.ts",
-    "comp": "deno run --allow-read --allow-net --allow-write https://raw.githubusercontent.com/Hortashaorg/auro/cba0ae8e037c954e7eadc6d8aaee6fc61cb391cc/services/app/components/cli.ts"
+    "comp": "deno run --allow-read --allow-net --allow-write https://raw.githubusercontent.com/Hortashaorg/auro/b631387ee37acffc3d63a34ee59ae27b79fa8549/services/app/components/cli.ts"
   },
   "fmt": {
     "exclude": ["src/public/main.css"]
