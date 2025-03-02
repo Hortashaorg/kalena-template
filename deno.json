@@ -3,11 +3,11 @@
   "name": "@project/app",
   "exports": "./main.ts",
   "imports": {
-    "@kalena/framework": "jsr:@kalena/framework@0.1.11",
+    "@kalena/framework": "jsr:@kalena/framework@0.2.1",
     "class-variance-authority": "npm:class-variance-authority@0.7.1",
     "clsx": "npm:clsx@2.1.1",
     "tailwind-merge": "npm:tailwind-merge@3.0.2",
-    "tailwindcss": "npm:tailwindcss@4.0.8",
+    "tailwindcss": "npm:tailwindcss@4.0.9",
     "@comp/": "./src/components/",
     "@pages/": "./src/pages/",
     "@permissions/": "./src/permissions/"
@@ -20,7 +20,7 @@
     "tailwind": "./tailwindcli -i ./src/main.css -o ./public/main.css --minify --watch",
     "dev": "deno run --unstable-otel --unstable-temporal --allow-net --allow-read --allow-env --watch ./src/main.ts",
     "start": "deno run --unstable-otel --unstable-temporal --allow-net --allow-read --allow-env --watch ./src/main.ts",
-    "comp": "deno run --allow-read --allow-net --allow-write https://raw.githubusercontent.com/Hortashaorg/auro/b631387ee37acffc3d63a34ee59ae27b79fa8549/services/app/components/cli.ts"
+    "comp": "deno run --allow-read --allow-net --allow-write https://raw.githubusercontent.com/Hortashaorg/auro/040400e9edebf8970fa106b5e9d128b23a64e775/services/app/components/cli.ts"
   },
   "fmt": {
     "exclude": ["src/public/main.css"]

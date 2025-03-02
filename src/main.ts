@@ -5,7 +5,6 @@ const myApp = app({
   routes: [
     homeRoute,
   ],
-  port: 4000,
 });
 
 Deno.serve({

@@ -2,30 +2,30 @@
   "version": "4",
   "specifiers": {
     "jsr:@hono/hono@4.7.2": "4.7.2",
-    "jsr:@kalena/framework@0.1.11": "0.1.11",
-    "jsr:@valibot/valibot@1.0.0-rc.1": "1.0.0-rc.1",
+    "jsr:@kalena/framework@0.2.1": "0.2.1",
+    "jsr:@valibot/valibot@1.0.0-rc.2": "1.0.0-rc.2",
     "npm:@opentelemetry/api@^1.9.0": "1.9.0",
     "npm:class-variance-authority@0.7.1": "0.7.1",
     "npm:class-variance-authority@~0.7.1": "0.7.1",
     "npm:clsx@2.1.1": "2.1.1",
     "npm:clsx@^2.1.1": "2.1.1",
     "npm:tailwind-merge@3.0.2": "3.0.2",
-    "npm:tailwindcss@4.0.8": "4.0.8"
+    "npm:tailwindcss@4.0.9": "4.0.9"
   },
   "jsr": {
     "@hono/hono@4.7.2": {
       "integrity": "73466a24bd6eb3b527cde18e59ca5543890ddacb4312fc0bc7504d28a7e57a38"
     },
-    "@kalena/framework@0.1.11": {
-      "integrity": "0aa55ecca82cbc996bea477faca5b8298bdac5000fb4a7c30a772c8179348e6a",
+    "@kalena/framework@0.2.1": {
+      "integrity": "7b3a0b77b9f8188fae2b0ab1cc8963faa0613fa4c911f733171ffca32584bb88",
       "dependencies": [
         "jsr:@hono/hono",
         "jsr:@valibot/valibot",
         "npm:@opentelemetry/api"
       ]
     },
-    "@valibot/valibot@1.0.0-rc.1": {
-      "integrity": "28be80d597d3b19c3950eaecd4b1758f44056cb2e64a62c4fa5b49948e0dc205"
+    "@valibot/valibot@1.0.0-rc.2": {
+      "integrity": "f612774092c0c98c15e514c385f4cc0a720c317a5ca6dcfea8fc9bc4538fd431"
     }
   },
   "npm": {
@@ -44,18 +44,18 @@
     "tailwind-merge@3.0.2": {
       "integrity": "sha512-l7z+OYZ7mu3DTqrL88RiKrKIqO3NcpEO8V/Od04bNpvk0kiIFndGEoqfuzvj4yuhRkHKjRkII2z+KS2HfPcSxw=="
     },
-    "tailwindcss@4.0.8": {
-      "integrity": "sha512-Me7N5CKR+D2A1xdWA5t5+kjjT7bwnxZOE6/yDI/ixJdJokszsn2n++mdU5yJwrsTpqFX2B9ZNMBJDwcqk9C9lw=="
+    "tailwindcss@4.0.9": {
+      "integrity": "sha512-12laZu+fv1ONDRoNR9ipTOpUD7RN9essRVkX36sjxuRUInpN7hIiHN4lBd/SIFjbISvnXzp8h/hXzmU8SQQYhw=="
     }
   },
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@4.7.2",
-      "jsr:@kalena/framework@0.1.11",
+      "jsr:@kalena/framework@0.2.1",
       "npm:class-variance-authority@0.7.1",
       "npm:clsx@2.1.1",
       "npm:tailwind-merge@3.0.2",
-      "npm:tailwindcss@4.0.8"
+      "npm:tailwindcss@4.0.9"
     ]
   }
 }

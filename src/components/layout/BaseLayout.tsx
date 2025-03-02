@@ -21,7 +21,15 @@ export const BaseLayout: FC<Props> = ({
       <body className="dark:bg-background-950 bg-background-50" x-data="{}">
         {children}
         <script src="https://unpkg.com/htmx.org@2.0.4"></script>
-        <script src="//unpkg.com/alpinejs" defer></script>
+        <script
+          defer
+          src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"
+        >
+        </script>
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script>
+          lucide.createIcons();
+        </script>
         <script src="/public/darkmode.js"></script>
       </body>
     </html>
