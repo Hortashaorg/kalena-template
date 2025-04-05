@@ -7,7 +7,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Deno
-COPY --from=denoland/deno:bin-2.2.2 /deno /usr/local/bin/deno
+COPY --from=denoland/deno:bin-2.2.8 /deno /usr/local/bin/deno
 
 # Install curl
 RUN apt-get update && \
@@ -29,7 +29,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 FROM base as prod
-# Run in prod
 COPY . .
+EXPOSE 4000
 RUN deno install
 CMD ["deno", "run", "start"]

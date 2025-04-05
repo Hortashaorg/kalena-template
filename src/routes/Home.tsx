@@ -1,7 +1,7 @@
 import { createRoute } from "@kalena/framework";
 import { isPublic } from "@permissions/public.ts";
-import { BaseLayout } from "@comp/layout/BaseLayout.tsx";
-import { Text } from "@comp/content/Text.tsx";
+import { BaseLayout } from "@comp/molecules/layout/BaseLayout.tsx";
+import { Text } from "@comp/atoms/typography/Text.tsx";
 
 const Home = () => {
   return (
